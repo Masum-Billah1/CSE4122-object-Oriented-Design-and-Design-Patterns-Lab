@@ -1,6 +1,6 @@
 # Pet Management System
 
-The Pet Management System is a Java program that allows users to manage a list of pets. It includes three types of pets: Dogs, Cats, and Birds. This system demonstrates object-oriented programming principles such as abstraction, encapsulation, and polymorphism.
+The Pet Management System is a Java program that allows users to manage a list of pets. It includes three types of pets: Dogs, Cats, and Birds. This system demonstrates object-oriented programming principles.
 
 ## Features
 
