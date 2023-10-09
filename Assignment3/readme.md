@@ -48,28 +48,21 @@ To use the banking service with the Facade design pattern, follow these steps:
 
 ## Example
 
-Here's an example of how to use the banking service with the Facade design pattern:
+Imagine you're a bank customer with Savings and Investment accounts:
 
-```java
-BankService bankService = new BankService();
+1. **Account Creation**:
+   - Savings Account: Initial deposit of $1,000.
+   - Investment Account: Initial deposit of $2,000.
 
-// Create a savings account with an initial deposit of $1000
-int savingsAccount = bankService.createNewAccount("savings", new BigDecimal(1000));
-BigDecimal savingsBalance = bankService.showBalance(savingsAccount);
-System.out.println("Savings Account Balance: " + savingsBalance);
+2. **Monitoring Balances**:
+   - Savings: $1,000.
+   - Investment: $2,000.
 
-// Create an investment account with an initial deposit of $2000
-int investmentAccount = bankService.createNewAccount("investment", new BigDecimal(2000));
-BigDecimal investmentBalance = bankService.showBalance(investmentAccount);
-System.out.println("Investment Account Balance: " + investmentBalance);
+3. **Transferring Funds**:
+   - Transfer $500 from Investment to Savings.
 
-// Transfer $500 from the investment account to the savings account
-bankService.transferMoney(investmentAccount, savingsAccount, new BigDecimal(500));
+4. **Updated Balances**:
+   - Savings: $1,500.
+   - Investment: $1,500.
 
-// Check updated balances
-savingsBalance = bankService.showBalance(savingsAccount);
-investmentBalance = bankService.showBalance(investmentAccount);
-
-System.out.println("Updated Savings Account Balance: " + savingsBalance);
-System.out.println("Updated Investment Account Balance: " + investmentBalance);
-This example demonstrates creating accounts, transferring money, and checking balances using the provided classes and interface.
+This real-life scenario showcases how the banking service with the Facade design pattern simplifies managing accounts, transfers, and balance tracking.
