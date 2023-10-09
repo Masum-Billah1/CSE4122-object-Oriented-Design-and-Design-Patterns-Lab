@@ -1,4 +1,4 @@
-# Java Classes README
+# A composite design pattern by using an example with a building composed of generic housing structures.
 
 ## Overview
 
