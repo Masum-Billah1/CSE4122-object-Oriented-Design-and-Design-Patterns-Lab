@@ -35,8 +35,9 @@ The Proxy design pattern is a structural pattern that controls access to objects
    javac Main.java
 
 3. Run the program:
-   
-   `java Main`
+
+   ```bash
+   java Main
    
 *Follow the prompts to simulate user authentication and place an order.
 
